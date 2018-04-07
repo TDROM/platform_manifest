@@ -36,7 +36,7 @@
     <project path="external/tinycompress" name="android_external_tinycompress" remote="llos" />
     <project path="external/selinux" name="android_external_selinux" remote="llos" />
     <project path="external/fuse" name="android_external_fuse" remote="llos" />
-    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" />
+    <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="llos" revision="oreo-mr1" />
     <project path="external/exfat" name="android_external_exfat" remote="llos" />
     <project path="external/connectivity" name="external_connectivity" remote="llos" />
     <project path="external/ebtables" name="external_ebtables" remote="llos" />
