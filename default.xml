@@ -3,11 +3,33 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-8.1.0_r33"
            remote="aosp"
            sync-c="true"
            sync-f="true"
            sync-j="8" />
+
+   <remote name="github"
+        fetch="https://github.com/" />
+
+   <remote name="lluvia"
+        fetch="https://github.com/LLuviaOS"
+        revision="llovizna" />
+    
+   <remote name="LLuviaDevices"
+           fetch="https://github.com/LLuviaDevices"
+           revision="8.1" />
+    
+   <remote name="zx2c4"
+           fetch="https://git.zx2c4.com/"
+           revision="master" 
+           sync-s="true"/>
+
+   <remote name="los"
+           fetch="https://github.com/LineageOS" 
+           revision="refs/heads/lineage-15.1" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -617,12 +639,13 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- Remove unused AOSP repos -->
-  <include name="remove.xml" />
 
   <!-- LLuvia repos -->
-  <include name="LLuvia.xml" />
+  <include name="βροχή/main.xml" />
+  <include name="βροχή/hals.xml" />
+  <include name="βροχή/external.xml" />
+  <include name="βροχή/hardware.xml" />
+  <include name="βροχή/packages.xml" /> 
+  <include name="βροχή/remove.xml" />
 
-  <!-- GZOSP CAF manifest -->
-  <include name="caf.xml" />
 </manifest>
