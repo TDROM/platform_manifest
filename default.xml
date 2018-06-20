@@ -641,11 +641,11 @@
 
 
   <!-- LLuvia repos -->
-  <include name="βροχή/main.xml" />
+  <include name="βροχή/remove.xml" />
   <include name="βροχή/hals.xml" />
   <include name="βροχή/external.xml" />
   <include name="βροχή/hardware.xml" />
   <include name="βροχή/packages.xml" /> 
-  <include name="βροχή/remove.xml" />
+  <include name="βροχή/main.xml" />
 
 </manifest>

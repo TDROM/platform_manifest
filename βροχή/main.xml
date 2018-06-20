@@ -39,6 +39,7 @@
     <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" />
     <project path="hardware/lluvia/interfaces" name="platform_hardware_lluvia_interfaces" remote="lluvia" >
       <copyfile dest="hardware/lluvia/Android.bp" src="Android.bp"/>
+     </project>
 
     <!-- frameworks -->
     <project path="frameworks/av" name="frameworks_av" remote="lluvia" revision="8.1" />
@@ -74,4 +75,4 @@
     <!-- OTA config -->
     <project path="OTA/config" name="OTA_config" remote="lluvia" />
 
-
+</manifest>
