@@ -37,7 +37,7 @@
     <project path="system/vold" name="android_system_vold" remote="lluvia" revision="8.1" />
     <project path="system/libhidl" name="android_system_libhidl" remote="lluvia" revision="8.1" /> 
     <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" revision="8.1" />
-    <project path="hardware/lluvia/interfaces" name="platform_hardware_lluvia_interfaces" remote="lluvia" >
+    <project path="hardware/lluvia/interfaces" name="hardware_lluvia_interfaces" remote="lluvia" >
       <copyfile dest="hardware/lluvia/Android.bp" src="Android.bp"/>
      </project>
 

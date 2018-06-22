@@ -15,7 +15,7 @@
 
    <remote name="lluvia"
         fetch="https://github.com/LLuviaOS"
-        revision="llovizna" />
+        revision="llovizna-release" />
     
    <remote name="LLuviaDevices"
            fetch="https://github.com/LLuviaDevices"
