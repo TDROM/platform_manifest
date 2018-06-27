@@ -33,7 +33,7 @@
     <project path="system/netd" name="android_system_netd" remote="lluvia" revision="8.1" />
     <!-- project path="system/nfc" name="android_system_nfc" remote="lluvia"  /-->
     <project path="system/sepolicy" name="android_system_sepolicy" remote="lluvia"  />
-    <project path="system/qcom" name="android_system_qcom" remote="lluvia" revision="8.1" />
+    <!-- project path="system/qcom" name="android_system_qcom" remote="lluvia" revision="8.1" /-->
     <project path="system/vold" name="android_system_vold" remote="lluvia" revision="8.1" />
     <project path="system/libhidl" name="android_system_libhidl" remote="lluvia" revision="8.1" /> 
     <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" remote="lluvia" revision="8.1" />

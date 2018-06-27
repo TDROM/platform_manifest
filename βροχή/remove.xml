@@ -61,7 +61,6 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/skia" />
   <remove-project name="platform/external/toybox" /> 
-  <remove-project name="platform/external/wpa_supplicant_8" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
