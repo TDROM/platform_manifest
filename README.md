@@ -28,7 +28,7 @@
 
    # Install Repo in the created directory
    # Use a real name/email combination, if you intend to submit patches
-   $ repo init -u https://github.com/LLuviaOS/platform_manifest -b 8.1
+   $ repo init -u https://github.com/LLuviaOS/platform_manifest -b lluvia-2.x
    ```
    
    - ## Necessary tools/packages to build LLuvia ##
